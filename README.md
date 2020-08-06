@@ -1,3 +1,3 @@
 # Algorithm-Study
 
-*Wiki
+* Wiki에 문제정리
