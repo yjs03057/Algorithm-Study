@@ -10,8 +10,8 @@ using namespace std;
 int N, M, answer;
 int lab[50][50];
 int visit[50][50];
-vector<pair<int, int>> virus_q;
-deque<pair<int, pair<int, int>>> q; //<cnt<x, y>> 형태의 q
+vector<pair<int, int>> virus_q; //virus를 놓을 수 있는 자리들
+deque<pair<int, pair<int, int>>> q; //<cnt(시간) <x, y>> 형태의 양방향 큐(스택, 큐)
 int dx[4] = { -1, 1, 0, 0 };
 int dy[4] = { 0, 0, -1, 1 };
 
